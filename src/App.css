@@ -1,0 +1,52 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #23252c;
+}
+
+.app-root {
+  /* display: flex; */
+  /* flex-direction: column; */
+  max-width: 317px;
+  color: white;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.36px;
+  text-align: left;
+  margin: auto;
+}
+
+.image-section {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  min-height: 314px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.image-section img {
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.image-section img:hover {
+  transform: scale(1.075);
+  transition: all 1s;
+}
+
+.footerBody {
+  background-color: #161619;
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 19px 50px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footerBody > *:hover {
+  transform: scale(1.3);
+}
